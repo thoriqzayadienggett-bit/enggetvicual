@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engget Visual - Creative Video Editing for Short Content</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Engget Visual</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Engget Visual</h1>
+            <p class="hero-tagline">Creative Video Editing for Short Content</p>
+            <a href="#portfolio" class="cta-button">View Portfolio</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate video editor specializing in short-form content for platforms like TikTok, Instagram Reels, and YouTube Shorts. With a keen eye for storytelling and motion graphics, I transform raw footage into engaging, viral-ready videos that captivate audiences.</p>
+                    <div class="skills">
+                        <h3>Key Skills</h3>
+                        <ul>
+                            <li>Video Editing</li>
+                            <li>Short-Form Content</li>
+                            <li>Motion Effects</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="placeholder-avatar">EV</div> <!-- Placeholder for photo -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-card">
+                    <div class="card-overlay">
+                        <h3>TikTok Edit #1</h3>
+                        <p>Dynamic transitions and effects.</p>
+                    </div>
+                </div>
+                <div class="portfolio-card">
+                    <div class="card-overlay">
+                        <h3>Reels Highlight</h3>
+                        <p>Engaging story flow for Instagram.</p>
+                    </div>
+                </div>
+                <div class="portfolio-card">
+                    <div class="card-overlay">
+                        <h3>YouTube Short</h3>
+                        <p>Fast-paced motion graphics.</p>
+                    </div>
+                </div>
+                <div class="portfolio-card">
+                    <div class="card-overlay">
+                        <h3>TikTok Series</h3>
+                        <p>Consistent branding across clips.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <div class="services-list">
+                <div class="service-item">
+                    <i class="fas fa-video"></i>
+                    <h3>TikTok Editing</h3>
+                    <p>Quick, trendy edits to boost engagement.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Reels Editing</h3>
+                    <p>Instagram-optimized short videos with flair.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-play-circle"></i>
+                    <h3>YouTube Shorts Editing</h3>
+                    <p>Hook viewers in seconds with pro cuts.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-magic"></i>
+                    <h3>Motion Graphics</h3>
+                    <p>Add stunning effects and animations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <form class="contact-form" action="https://formspree.io/f/your-email" method="POST"> <!-- Replace with your Formspree endpoint -->
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
